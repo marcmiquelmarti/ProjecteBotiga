@@ -1,0 +1,21 @@
+html{
+    background-image: url("Images/fons2.jpg");
+    background-size: cover;
+    
+
+}
+
+.submenu1 li{
+    display: inline;
+    padding: 1.5%;
+    float: left;
+    background-color: aliceblue;
+}
+
+.submenu2 li{
+    display: inline;
+    padding: 1.5%;
+    float: right;
+    background-color: aliceblue;
+
+}

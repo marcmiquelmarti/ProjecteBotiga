@@ -1,23 +1,57 @@
 html{
     background-image: url("Images/fons2.jpg");
     background-size: cover;
-    
+    min-height: 100%;
+
+}
+aside{
+    text-align: right;
+    margin-left: 80%;
+}
+article{
+    width: auto;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+    display: inline-block;
+    background-color: blueviolet;
 
 }
 
 .submenu1 li{
-    color: rebeccapurple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
     display: inline;
     padding: 1.5%;
     float: left;
     background-color: aliceblue;
-}
+    opacity: 0.9;
+    border-radius: 8px;
+    border-collapse: collapse;
+    border: 2px black solid;
+    margin-right: 5px;
+    max-height: 5px;
+    min-height: 1px;
+    padding-top: 0.8%;
 
+}
+.submenu1 li:hover{
+    background-color: purple;
+}
 .submenu2 li{
-    color: rebeccapurple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
     display: inline;
     padding: 1.5%;
     float: right;
     background-color: aliceblue;
+    opacity: 0.9;
+    border-radius: 8px;
+    border-collapse: collapse;
+    border: 2px black solid;
+    margin-right: 5px;
+    max-height: 5px;
+    min-height: 1px;
+    padding-top: 0.8%;
 
 }

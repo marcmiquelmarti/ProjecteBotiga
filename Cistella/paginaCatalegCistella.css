@@ -1,0 +1,99 @@
+html{
+    background-image: url("Images/fons2.jpg");
+    background-size: cover;
+    min-height: 100%;
+
+}
+.cajaLogo{
+    display: inline-block;
+    width:100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 900%;
+    color:rgb(228, 41, 41);
+    -webkit-text-stroke: 2px black;
+}
+
+#items{
+    width: 28%;
+    height: 28%;
+    margin-top: 2%;
+    margin-right: 20%;
+    display:inline-block;
+    background-color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border: black solid 5px;
+}
+.img-fluid{
+    height: 150px;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold; 
+    margin-bottom: 1px;
+}
+aside{
+    width: 28%;
+    height: 210px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border: black solid 5px;
+    float: right;
+}
+#boton-vaciar{
+    height: 30px;
+    font-weight: bold;
+    margin-left:1%;
+}
+#boton-vaciar:hover{
+    background-color: purple;
+}
+#pagar{
+    height: 30px;
+    font-weight: bold;
+}
+#pagar:hover{
+    background-color: purple;
+}
+.submenu1 li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: inline;
+    padding: 1.5%;
+    float: left;
+    background-color: aliceblue;
+    opacity: 0.9;
+    border-radius: 8px;
+    border-collapse: collapse;
+    border: black solid 2px;
+    margin-right: 5px;
+    max-height: 8px;
+    min-height: 1px;
+    padding-top: 0.8%;
+}
+.submenu1 li:hover{
+    background-color: purple;
+}
+.submenu2 li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: inline;
+    padding: 1.5%;
+    float: right;
+    background-color: aliceblue;
+    opacity: 0.9;
+    border-radius: 8px;
+    border-collapse: collapse;
+    border: black solid 2px;
+    margin-right: 5px;
+    max-height: 8px;
+    min-height: 1px;
+    padding-top: 0.8%;
+}
+.submenu2 li:hover{
+    background-color: purple;
+}

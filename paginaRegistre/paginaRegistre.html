@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="paginaRegistre.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="paginaRegistre.js"></script>
     <header>
         <title>CASA FRIKI - la teva botiga de manga i merchandising!</title>
@@ -30,12 +31,11 @@
     </nav>
 
     <article>
-        <form class="formReg">
-            <input placeholder="Nom" type="text" name="Nom" id="name">
-            <input placeholder="Cognoms" type="text" name="Cognoms" id="surname">
-            <input placeholder="Data de naixement" type="date" name="DataNaixement" id="birthday">
-            <input type="submit">
-        </form>
+         <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+        Username:<br /><input type="text" name="username" size="10" /><br />
+        Password:<br /><input type="password" name="pswd" SIZE="10" /><br />
+        <input type="submit" value="Login" />  
+    </form>
     </article>
 
     <aside>

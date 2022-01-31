@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="paginaInici.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="paginaInici.js"></script>
     <header>
         <title>CASA FRIKI - la teva botiga de manga i merchandising!</title>
@@ -29,18 +30,11 @@
     </nav>
 
     <article>
-        <h1>Inici de sessió</h1>
-        <form action="enviar.php" method="post">
-        E-mail:
-        <input class="email" type="text" name="Email" value="" />
-        <br/>
-        Contrasenya:
-        <input class="contra" type="password" name="Password" value="" />
-        <br/>
-        <input class="recordam" type="checkbox" name="Recorda'm" value="" checked="checked">
-        Recorda'm!
-        <br/>
-        <input class="enviar" type="submit" value="Inicia Sessió" />
+        <b>Email</b>
+        <input id="correuUsuari" type="text"></input><br>
+        <b>Contrasenya</b>
+        <input id="pwdUsuari" type="text"></input><br>
+        <button onclick="" id="boto-cargar" style="height: 30px; width: 70px;"></button>
     </article>
 
     <aside>

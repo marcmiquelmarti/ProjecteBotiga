@@ -1,5 +1,5 @@
 html{
-    background-image: url("Images/fons2.jpg");
+    background-image: url("../Images/fons2.jpg");
     background-size:cover;
     min-height: 100%;
 
@@ -20,6 +20,8 @@ html{
     
     
 }
+
+
 article{
     width: 30%;
     height: 200px;

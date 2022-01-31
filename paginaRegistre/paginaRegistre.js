@@ -1,34 +1,18 @@
+$(document).ready(function () {
+    $('boto-guardar').click(function () {
+        var nom1 = document.getElementById("nomtxt").value;
+        var cnom = document.getElementById("cognomtxt").value;
+        var correu = document.getElementById("emailtxt").value;
+        var pw = document.getElementById("contrasenyatxt").value;
 
-signUp();
+        localStorage.setItem("Nom", nom1);
+        localStorage.setItem("Cognoms", cnom);
+        localStorage.setItem("Email", correu);
+        localStorage.setItem("Contrasenya", pw);
 
-function signUp() {
-    // Create a new instance of the user class
-    var user = new Parse.User();
-    user.set("username", "my name");
-    user.set("password", "my pass");
-    user.set("email", "email@example.com");
-  
-    // other fields can be set just like with Parse.Object
-    user.set("phone", "415-392-0202");
-  
-    user.signUp().then(function(user) {
-        console.log('User created successful with name: ' + user.get("username") + ' and email: ' + user.get("email"));
-    }).catch(function(error){
-        console.log("Error: " + error.code + " " + error.message);
+        document.getElementById("nomtxt").value = "";
+        document.getElementById("cognomtxt").value = "";
+        document.getElementById("emailtxt").value = "";
+        document.getElementById("contrasenyatxt").value = "";
     });
-}
-
-if
-
-
-logIn();
-
-function logIn() {
-    // Create a new instance of the user class
-    var user = Parse.User
-        .logIn("myname", "mypass").then(function(user) {
-            console.log('User created successful with name: ' + user.get("username") + ' and email: ' + user.get("email"));
-    }).catch(function(error){
-        console.log("Error: " + error.code + " " + error.message);
-    });
-}
+});
